@@ -1,172 +1,54 @@
-# PenguinMails Documentation
+# 📧 PenguinMails Documentation
 
 [![Documentation Status](https://img.shields.io/badge/Documentation-Active-brightgreen.svg)](https://penguinmails.github.io)
 [![Build Status](https://github.com/penguinmails/penguinmails.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/penguinmails/penguinmails.github.io/actions)
 [![Contributors](https://img.shields.io/github/contributors/penguinmails/penguinmails.github.io.svg)](CONTRIBUTORS.md)
-[![Issues](https://img.shields.io/github/issues/penguinmails/penguinmails.github.io.svg)](https://github.com/penguinmails/penguinmails.github.io/issues)
+[![Open Issues](https://img.shields.io/github/issues/penguinmails/penguinmails.github.io.svg)](https://github.com/penguinmails/penguinmails.github.io/issues)
 [![License](https://img.shields.io/github/license/penguinmails/penguinmails.github.io.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/penguinmails/penguinmails.github.io?style=social)](https://github.com/penguinmails/penguinmails.github.io)
 
-> **Enterprise-grade email platform documentation**  
-> Complete, actionable guides for devs, ops, and business users.
+> **Enterprise-grade Email Platform Documentation**
+> Complete, actionable guides for **Developers**, **Operations**, and **Business Users** deploying the PenguinMails platform.
 
 ---
 
-## 🚀 Quick Start
+## ✨ Overview & Key Sections
 
-**Clone & Launch Docs Locally**
+We provide clear, in-depth documentation covering everything from high-level architecture to development conventions and security protocols.
 
-git clone https://github.com/penguinmails/penguinmails.github.io.git
+* **Platform Overview:** [What is PenguinMails](docs/what-is-penguinmails.md) and [Features & Capabilities](docs/features-capabilities.md)
+* **Deployment:** [Implementation Guides](docs/implement/getting-started.md) & [Operations](docs/operate/)
+* **Best Practices:** [Security](docs/security/), [Analytics](docs/analytics/), & [Development Conventions](docs/development/)
+
+**View the Live Demo:** [penguinmails.github.io](https://penguinmails.github.io)
+
+---
+
+## 🚀 Quick Start: Run Docs Locally
+
+Get the documentation running on your machine in minutes.
+
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/penguinmails/penguinmails.github.io.git](https://github.com/penguinmails/penguinmails.github.io.git)
 cd penguinmails.github.io
-
-Using Docker (recommended):
-docker compose up
-
-OR using Ruby (needs Jekyll installed):
-bundle install
-bundle exec jekyll serve --livereload  
-
-Docs will be live at `http://localhost:4000`
-
-- **See:** [Getting Started](docs/implement/getting-started.md)
-- **Live Demo:** [penguinmails.github.io](https://penguinmails.github.io)
-
----
-
-## 🤝 Contributing
-
-Want to improve the docs or platform resources?  
-- Read our [CONTRIBUTING.md](CONTRIBUTING.md) for PR steps, content standards, and style guides.
-- Fork this repo, branch off, commit, and open a pull request.
-- All code and docs are reviewed before merging via CI and linting.
-
-**Contributor Credits:** See [CONTRIBUTORS.md](CONTRIBUTORS.md)  
-Questions? Open an [issue](https://github.com/penguinmails/penguinmails.github.io/issues) or start a Discussion!
-
----
-
-## 🛠️ Project Structure
-
-`docs/` — All main documentation (edit/add here!)  
-`deploy/`, `.github/` — CI/CD and workflow configs  
-`CONTRIBUTING.md`, `CONTRIBUTORS.md`, `LICENSE` — Repo meta and contributor help
-
-Common Doc Tasks:
-- Add a new doc? → `docs/`
-- Update site structure? → Edit nav in Jekyll config
-- Contributing guide tweaks? → `CONTRIBUTING.md`
-
----
-
-## 📋 Freelancer & Contributor Fastlane
-
-**Freelancers & OSS contributors:**  
-- Start at [Freelancer Onboarding Hub](/docs/freelancer-support/)
-- Review [Task Clarity Essentials](/docs/freelancer-support/README.md#task-completion-standards) for DoD, story points, process
-- See open tasks: [Issues](https://github.com/penguinmails/penguinmails.github.io/issues)
-
----
-
-## 📚 Key Sections
-
-- [What is PenguinMails](docs/what-is-penguinmails.md)
-- [Features & Capabilities](docs/features-capabilities.md)
-- [Implementation Guides](docs/implement/getting-started.md)
-- [Operations](docs/operate/)
-- [Design System](docs/design/)
-- [Security](docs/security/)
-- [Analytics](docs/analytics/)
-- [Development Conventions](docs/development/)
-
-See full structure below.
-
----
-
-## 📂 Documentation Structure
-
-docs/
+2. Launching OptionsOption A: Recommended (using Docker)This method ensures an isolated, consistent environment.Bashdocker compose up
+Option B: Using Ruby/JekyllRequires Ruby and the Jekyll gem to be installed locally.Bashbundle install
+bundle exec jekyll serve --livereload
+Access: Docs will be live at http://localhost:4000🤝 Contributing to the DocumentationWe welcome contributions! Improving our guides and resources helps everyone.Read our CONTRIBUTING.md for detailed steps, content standards, and style guides.Fork this repository, create a new branch, commit your changes, and open a Pull Request (PR).All contributions are subject to CI/linting checks and review before merging.Contributor Credits: See our community acknowledgment in CONTRIBUTORS.md.Questions? Open an Issue or start a Discussion!Freelancer & OSS FastlaneAre you a commissioned freelancer or open-source contributor?Onboarding: Start at the Freelancer Onboarding Hub.Task Standards: Review Task Clarity Essentials for Definition of Done (DoD) and process.Open Tasks: See current opportunities on our Issues page.🛠️ Project Structure & Key FilesThe documentation is built using Jekyll. The main content lives in the docs/ directory.Directory/FilePurposeCommon Tasksdocs/Contains all Markdown source files for the documentation.Add/Edit Documentation Pages_config.ymlJekyll configuration, site settings, and navigation structure.Update sidebar navigation.github/CI/CD, GitHub Actions, and workflow configs.Tweak build or deploy steps📂 Full Documentation Structuredocs/
 ├── what-is-penguinmails.md
 ├── features-capabilities.md
-├── goals-competitive-edge.md
 ├── plan/
 │ ├── high-level-architecture.md
-│ ├── key-performance-indicators.md
 │ └── roadmap-development-priorities.md
 ├── implement/
 │ ├── getting-started.md
-│ ├── backup-recovery.md
-│ ├── database-operations.md
-│ ├── deployment.md
-│ ├── performance-monitoring.md
-│ └── connection-pooling.md
+│ └── deployment.md
 ├── operate/
-│ ├── compliance-standards.md
-│ ├── team-workflow.md
-│ └── resources-support.md
 ├── design/
-│ ├── design-system.md
-│ ├── ui-library.md
-│ ├── component-library.md
-│ └── user-personas.md
 ├── security/
-│ ├── overview.md
-│ ├── incident-response.md
-│ └── procedures.md
 ├── analytics/
-│ ├── financial.md
-│ ├── user-behavior.md
-│ ├── growth.md
-│ └── product-performance.md
 ├── development/
-│ ├── style-guide.md
-│ ├── faq-gotchas.md
-│ └── best-practices.md
-├── tasks/
-│ └── project-management.md
 └── finance-business-model.md
-
-
----
-
-## ❓ FAQ
-
-- **Build fails on new machine?**  
-  Confirm Ruby & Bundler installed, then run `bundle install` again. Try `docker compose up` for an isolated build.
-- **Docker not working?**  
-  See [Docker Troubleshooting](docs/implement/docker-troubleshooting.md)
-- **Can't find a document?**  
-  Use site search or view sidebar navigation for section overviews.
-
----
-
-## 📈 Project Statistics
-
-| Metric                | Value   |
-|-----------------------|---------|
-| Documentation Pages   | 93+     |
-| Active Contributors   | 5+      |
-| Last Updated          | Dec 2024|
-| Open Issues           | [View](https://github.com/penguinmails/penguinmails.github.io/issues) |
-
----
-
-## 🏆 Acknowledgments
-
-Built with:
-- [Just the Docs](https://pmarsceill.github.io/just-the-docs/)
-- [Jekyll](https://jekyllrb.com/)
-- [GitHub Pages](https://pages.github.com/)
-- [Docker](https://www.docker.com/)
-
----
-
-## 📄 License
-
-Licensed under the [Apache License 2.0](LICENSE).  
-PenguinMails is a trademark of PenguinMails, Inc.
-
----
-
-**⭐️ Star this repo if it helps you!**  
-*See latest guides at [penguinmails.github.io](https://penguinmails.github.io).*
-
-
+❓ Frequently Asked Questions (FAQ)QuestionAnswerBuild fails locally?Confirm Ruby/Bundler installed, then run bundle install. Recommended: Use docker compose up for an isolated build.Docker issues?Consult the Docker Troubleshooting Guide.Can't find a doc?Use the site search on the live demo or check the sidebar navigation for section overviews.📊 Project StatisticsMetricValueDocumentation Pages93+Active Contributors5+Last UpdatedDecember 2024Open IssuesView All🏆 Acknowledgments & LicenseThis documentation is built using: Just the Docs, Jekyll, GitHub Pages, and Docker.License: Licensed under the Apache License 2.0. PenguinMails is a trademark of PenguinMails, Inc.Did this help you? Please consider ⭐️ starring this repo to support our project!
