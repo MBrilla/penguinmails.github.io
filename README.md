@@ -32,52 +32,93 @@ Get the documentation running on your machine in minutes.
 ```
 git clone https://github.com/penguinmails/penguinmails.github.io.git
 cd penguinmails.github.io
-git clone [https://github.com/penguinmails/penguinmails.github.io.git](https://github.com/penguinmails/penguinmails.github.io.git)
-cd penguinmails.github.io
 ```
 
-2. Launching Options
-  
-Option A: Recommended (using Docker)This method ensures an isolated, consistent environment.
-```docker compose up```
+### 2. Launch the Docs
 
-Option B: Using Ruby/JekyllRequires Ruby and the Jekyll gem to be installed locally.
+**Option A – Docker (recommended)**  
+Provides an isolated, reproducible environment.
+```
+docker compose up
+```
+
+**Option B – Ruby/Jekyll**  
+Requires Ruby, Bundler, and the Jekyll gem installed locally.
 ```
 bundle install
-bundle exec jekyll serve --livereload```
+bundle exec jekyll serve --livereload
 ```
-Access: Docs will be live at http://localhost:4000🤝
-Contributing to the Documentation
-We welcome contributions! Improving our guides and resources helps everyone.Read our CONTRIBUTING.md for detailed steps, content standards, and style guides.Fork this repository, create a new branch, commit your changes, and open a Pull Request (PR).All contributions are subject to CI/linting checks and review before merging.Contributor Credits: See our community acknowledgment in CONTRIBUTORS.md.Questions? Open an Issue or start a Discussion!Freelancer & OSS FastlaneAre you a commissioned freelancer or open-source contributor?Onboarding: Start at the Freelancer Onboarding Hub.Task Standards: Review Task Clarity Essentials for Definition of Done (DoD) and process.Open Tasks: See current opportunities on our Issues page.
 
-🛠️ Project Structure & Key Files
-Directory/File,Purpose,Common Tasks
-docs/,Contains all Markdown source files for the documentation.,Add/Edit Documentation Pages
-_config.yml,"Jekyll configuration, site settings, and navigation structure.",Update sidebar navigation
-.github/,"CI/CD, GitHub Actions, and workflow configs.",Tweak build or deploy steps
+Your site will be available at [http://localhost:4000](http://localhost:4000).
 
-📂 Full Documentation Structure
+---
+
+## 🤝 Contributing to the Documentation
+
+We welcome improvements to guides, tutorials, walkthroughs, and visuals.
+
+1. Review the standards in [CONTRIBUTING.md](CONTRIBUTING.md) and our style guides.
+2. Fork the repo, create a feature branch, make changes, and push.
+3. Open a Pull Request describing the update. All PRs run through CI/lint checks prior to review.
+
+Additional resources:
+
+* **Contributor Credits:** Listed in [CONTRIBUTORS.md](CONTRIBUTORS.md).
+* **Support:** Open an Issue or start a Discussion if you need help.
+* **Freelancer & OSS Fastlane:** Begin at the **Freelancer Onboarding Hub**, confirm Definition of Done via **Task Clarity Essentials**, and browse open opportunities on the Issues board.
+
+---
+
+## 🛠️ Project Structure & Key Files
+
+| Directory/File | Purpose | Common Tasks |
+| --- | --- | --- |
+| `docs/` | Markdown source for all documentation pages. | Add or update content. |
+| `_config.yml` | Jekyll configuration, site metadata, navigation. | Adjust site settings or sidebar links. |
+| `.github/` | GitHub Actions, workflows, and CI/CD utilities. | Modify build or deployment automation. |
+
+---
+
+## 📂 Full Documentation Structure
+
+```
 docs/
 ├── what-is-penguinmails.md
 ├── features-capabilities.md
 ├── plan/
-│ ├── high-level-architecture.md
-│ └── roadmap-development-priorities.md
+│   ├── high-level-architecture.md
+│   └── roadmap-development-priorities.md
 ├── implement/
-│ ├── getting-started.md
-│ └── deployment.md
+│   ├── getting-started.md
+│   └── deployment.md
 ├── operate/
 ├── design/
 ├── security/
 ├── analytics/
 ├── development/
 └── finance-business-model.md
-❓ Frequently Asked Questions (FAQ)
-Question	Answer
-Build fails locally?	Confirm Ruby/Bundler installed, then run bundle install. Recommended: Use docker compose up for an isolated build.
-Docker issues?	Consult the Docker Troubleshooting Guide.
-Can't find a doc?	Use the site search on the live demo or check the sidebar navigation for section overviews.
-📊 Project StatisticsMetricValueDocumentation Pages93+Active Contributors5+Last UpdatedDecember 2024Open IssuesView All
+```
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+| Question | Answer |
+| --- | --- |
+| Build fails locally? | Confirm Ruby/Bundler is installed, run `bundle install`, or use `docker compose up` for an isolated build. |
+| Docker issues? | Review the Docker Troubleshooting Guide. |
+| Can't find a doc? | Use the live site search or check the sidebar navigation for section overviews. |
+
+---
+
+## 📊 Project Statistics
+
+| Metric | Value |
+| --- | --- |
+| Documentation Pages | 93+ |
+| Active Contributors | 5+ |
+| Last Updated | December 2024 |
+| Open Issues | [View All](https://github.com/penguinmails/penguinmails.github.io/issues) |
 
 🏆 Acknowledgments & License
 This documentation is built using: Just the Docs, Jekyll, GitHub Pages, and Docker.
