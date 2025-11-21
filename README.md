@@ -29,14 +29,35 @@ We provide clear, in-depth documentation covering everything from high-level arc
 Get the documentation running on your machine in minutes.
 
 ### 1. Clone the Repository
-
-```bash
+```
+git clone https://github.com/penguinmails/penguinmails.github.io.git
+cd penguinmails.github.io
 git clone [https://github.com/penguinmails/penguinmails.github.io.git](https://github.com/penguinmails/penguinmails.github.io.git)
 cd penguinmails.github.io
-2. Launching OptionsOption A: Recommended (using Docker)This method ensures an isolated, consistent environment.Bashdocker compose up
-Option B: Using Ruby/JekyllRequires Ruby and the Jekyll gem to be installed locally.Bashbundle install
-bundle exec jekyll serve --livereload
-Access: Docs will be live at http://localhost:4000🤝 Contributing to the DocumentationWe welcome contributions! Improving our guides and resources helps everyone.Read our CONTRIBUTING.md for detailed steps, content standards, and style guides.Fork this repository, create a new branch, commit your changes, and open a Pull Request (PR).All contributions are subject to CI/linting checks and review before merging.Contributor Credits: See our community acknowledgment in CONTRIBUTORS.md.Questions? Open an Issue or start a Discussion!Freelancer & OSS FastlaneAre you a commissioned freelancer or open-source contributor?Onboarding: Start at the Freelancer Onboarding Hub.Task Standards: Review Task Clarity Essentials for Definition of Done (DoD) and process.Open Tasks: See current opportunities on our Issues page.🛠️ Project Structure & Key FilesThe documentation is built using Jekyll. The main content lives in the docs/ directory.Directory/FilePurposeCommon Tasksdocs/Contains all Markdown source files for the documentation.Add/Edit Documentation Pages_config.ymlJekyll configuration, site settings, and navigation structure.Update sidebar navigation.github/CI/CD, GitHub Actions, and workflow configs.Tweak build or deploy steps📂 Full Documentation Structuredocs/
+```
+
+2. Launching Options
+  
+Option A: Recommended (using Docker)This method ensures an isolated, consistent environment.
+```docker compose up```
+
+Option B: Using Ruby/JekyllRequires Ruby and the Jekyll gem to be installed locally.
+```
+bundle install
+bundle exec jekyll serve --livereload```
+```
+Access: Docs will be live at http://localhost:4000🤝
+Contributing to the Documentation
+We welcome contributions! Improving our guides and resources helps everyone.Read our CONTRIBUTING.md for detailed steps, content standards, and style guides.Fork this repository, create a new branch, commit your changes, and open a Pull Request (PR).All contributions are subject to CI/linting checks and review before merging.Contributor Credits: See our community acknowledgment in CONTRIBUTORS.md.Questions? Open an Issue or start a Discussion!Freelancer & OSS FastlaneAre you a commissioned freelancer or open-source contributor?Onboarding: Start at the Freelancer Onboarding Hub.Task Standards: Review Task Clarity Essentials for Definition of Done (DoD) and process.Open Tasks: See current opportunities on our Issues page.
+
+🛠️ Project Structure & Key Files
+Directory/File,Purpose,Common Tasks
+docs/,Contains all Markdown source files for the documentation.,Add/Edit Documentation Pages
+_config.yml,"Jekyll configuration, site settings, and navigation structure.",Update sidebar navigation
+.github/,"CI/CD, GitHub Actions, and workflow configs.",Tweak build or deploy steps
+
+📂 Full Documentation Structure
+docs/
 ├── what-is-penguinmails.md
 ├── features-capabilities.md
 ├── plan/
@@ -51,4 +72,18 @@ Access: Docs will be live at http://localhost:4000🤝 Contributing to the Docum
 ├── analytics/
 ├── development/
 └── finance-business-model.md
-❓ Frequently Asked Questions (FAQ)QuestionAnswerBuild fails locally?Confirm Ruby/Bundler installed, then run bundle install. Recommended: Use docker compose up for an isolated build.Docker issues?Consult the Docker Troubleshooting Guide.Can't find a doc?Use the site search on the live demo or check the sidebar navigation for section overviews.📊 Project StatisticsMetricValueDocumentation Pages93+Active Contributors5+Last UpdatedDecember 2024Open IssuesView All🏆 Acknowledgments & LicenseThis documentation is built using: Just the Docs, Jekyll, GitHub Pages, and Docker.License: Licensed under the Apache License 2.0. PenguinMails is a trademark of PenguinMails, Inc.Did this help you? Please consider ⭐️ starring this repo to support our project!
+❓ Frequently Asked Questions (FAQ)
+Question	Answer
+Build fails locally?	Confirm Ruby/Bundler installed, then run bundle install. Recommended: Use docker compose up for an isolated build.
+Docker issues?	Consult the Docker Troubleshooting Guide.
+Can't find a doc?	Use the site search on the live demo or check the sidebar navigation for section overviews.
+📊 Project StatisticsMetricValueDocumentation Pages93+Active Contributors5+Last UpdatedDecember 2024Open IssuesView All
+
+🏆 Acknowledgments & License
+This documentation is built using: Just the Docs, Jekyll, GitHub Pages, and Docker.
+
+License: Licensed under the Apache License 2.0. PenguinMails is a trademark of PenguinMails, Inc.
+
+Did this help you? Please consider ⭐️ starring this repo to support our project!
+
+
