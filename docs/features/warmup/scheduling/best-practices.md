@@ -6,20 +6,11 @@ level: "2"
 keywords: "best practices, optimization, tips"
 ---
 
-  async pauseWarmup(scheduleId: string, reason: string): Promise<void> {
-    await db.warmupSchedules.update(scheduleId, {
-      status: 'paused',
-      pausedAt: new Date(),
-    });
+# Scheduling Best Practices
 
-    // Send alert
-    await this.sendWarmupAlert(scheduleId, reason);
-  }
-}
+This guide covers best practices for configuring and managing warmup schedules.
 
-```
-
-### Background Jobs
+## Background Jobs
 
 ```typescript
 // Daily warmup scheduler

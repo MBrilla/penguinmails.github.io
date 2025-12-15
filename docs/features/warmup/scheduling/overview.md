@@ -1,32 +1,10 @@
 ---
 title: "Warmup Scheduling"
-description: "IP warmup scheduling system"
+description: "Automated email warmup with gradual volume ramping, domain/IP strategies, engagement simulation, and progress tracking"
 last_modified_date: "2025-12-04"
 level: "2"
 persona: "Deliverability Teams"
 keywords: "warmup scheduling, IP warmup, email deliverability"
----
-
-﻿---
-title: "Warmup Scheduling"
-description: "Automated email warmup with gradual volume ramping, domain/IP strategies, engagement simulation, and progress tracking"
-level: "2"
-status: "PLANNED"
-roadmap_timeline: "Q3 2026"
-priority: "High"
-related_features:
-
-- warmup/warmup-management
-
-- warmup/reputation-monitoring
-
-- domains/domain-management
-
-- infrastructure/email-infrastructure-setup
-related_tasks:
-
-- epic-4-warmup-deliverability
-
 ---
 
 # Warmup Scheduling

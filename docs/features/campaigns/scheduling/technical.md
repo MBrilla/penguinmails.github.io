@@ -6,6 +6,18 @@ level: "3"
 keywords: "technical, implementation, architecture"
 ---
 
+# Technical Implementation
+
+This document covers the technical architecture for campaign scheduling.
+
+## Database Schema
+
+```sql
+-- Blackout dates table
+CREATE TABLE blackout_dates (
+  id UUID PRIMARY KEY,
+  tenant_id UUID NOT NULL,
+  blackout_date DATE NOT NULL,
   applies_to VARCHAR(50), -- all, specific_campaigns
   campaign_ids JSONB,
 

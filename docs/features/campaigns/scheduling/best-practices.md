@@ -6,7 +6,18 @@ level: "2"
 keywords: "best practices, optimization, tips"
 ---
 
-      .map(e => moment(e.clickedAt).hour());
+# Scheduling Best Practices
+
+This guide covers best practices for campaign scheduling and send-time optimization.
+
+## Send Time Optimization
+
+```typescript
+class SendTimeOptimizer {
+  async calculateOptimalSendTime(contact: Contact): Promise<void> {
+    const emails = await this.getContactEngagementHistory(contact.id);
+    const openTimes = emails.filter(e => e.opened).map(e => moment(e.openedAt).hour());
+    const clickTimes = emails.filter(e => e.clicked).map(e => moment(e.clickedAt).hour());
 
     // Find most common hour
     const optimalHour = this.getMostCommonValue([...openTimes, ...clickTimes]);

@@ -6,7 +6,16 @@ level: "3"
 keywords: "patterns, strategies, integration"
 ---
 
-    const milestones: LaunchMilestone[] = [
+# Integration Patterns
+
+This document covers product integration patterns and strategies for coordinating launches and feature releases.
+
+## Launch Planning
+
+### Launch Milestones
+
+```typescript
+const milestones: LaunchMilestone[] = [
       {
         name: 'Feature Freeze',
         date: new Date(launchDate.getTime() - 14 * 24 * 60 * 60 * 1000),

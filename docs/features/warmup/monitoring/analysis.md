@@ -6,6 +6,17 @@ level: "3"
 keywords: "analysis, reporting, insights"
 ---
 
+# Analysis & Reporting
+
+This document covers reputation analysis and reporting infrastructure.
+
+## Database Schema
+
+```sql
+-- Reputation alerts table
+CREATE TABLE reputation_alerts (
+  id UUID PRIMARY KEY,
+  tenant_id UUID NOT NULL,
   acknowledged_at TIMESTAMP,
   resolved_at TIMESTAMP,
 

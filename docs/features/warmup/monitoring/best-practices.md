@@ -6,19 +6,14 @@ level: "2"
 keywords: "best practices, monitoring, optimization"
 ---
 
-        'Check for compromised accounts',
-        'Request delisting',
-      ],
-      status: 'active',
-    });
+# Monitoring Best Practices
 
-    // Send notification
-    await this.sendAlert(tenantId, 'blacklist', {
-      blacklist: blacklistName,
-      value,
-    });
-  }
+This guide covers best practices for reputation monitoring and alert management.
 
+## Alert Management
+
+```typescript
+class ReputationMonitor {
   async checkReputationHealth(domainId: string): Promise<void> {
     const metrics = await this.calculateDomainHealth(domainId);
 

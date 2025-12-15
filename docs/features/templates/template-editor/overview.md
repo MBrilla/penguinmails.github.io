@@ -1,32 +1,10 @@
 ---
 title: "Template Editor"
-description: "Comprehensive template editing system"
+description: "Visual WYSIWYG email template editor with drag-and-drop, HTML/visual toggle, component library, and version control"
 last_modified_date: "2025-12-04"
 level: "1"
 persona: "All Users"
 keywords: "template editor, email templates, WYSIWYG"
----
-
-﻿---
-title: "Template Editor"
-description: "Visual WYSIWYG email template editor with drag-and-drop, HTML/visual toggle, component library, and version control"
-level: "2"
-status: "PLANNED"
-roadmap_timeline: "Q2 2026"
-priority: "High"
-related_features:
-
-- templates/template-management
-
-- templates/template-variables
-
-- templates/template-library
-
-- campaigns/campaign-management/overview
-related_tasks:
-
-- epic-6-templates-content
-
 ---
 
 # Template Editor

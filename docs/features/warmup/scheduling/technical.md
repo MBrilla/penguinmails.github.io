@@ -6,6 +6,18 @@ level: "3"
 keywords: "technical, implementation, architecture"
 ---
 
+# Technical Implementation
+
+This document covers the technical architecture for warmup scheduling.
+
+## Database Schema
+
+```sql
+-- Warmup schedules table
+CREATE TABLE warmup_schedules (
+  id UUID PRIMARY KEY,
+  tenant_id UUID NOT NULL,
+  inbox_id UUID NOT NULL,
   start_volume INTEGER,
   target_volume INTEGER,
   current_volume INTEGER,
