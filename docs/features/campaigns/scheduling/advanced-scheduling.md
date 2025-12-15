@@ -6,8 +6,9 @@ level: "3"
 keywords: "advanced scheduling, automation, smart timing"
 ---
 
+# Advanced Scheduling Options
 
-```
+## Daylight Saving Time Handling
 
 **Example:**
 

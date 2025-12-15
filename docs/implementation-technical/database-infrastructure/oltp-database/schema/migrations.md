@@ -6,6 +6,11 @@ level: "3"
 keywords: "migrations, schema changes, versioning"
 ---
 
+# Schema Migrations
+
+## Performance Indexes
+
+```sql
 -- User and tenant management
 CREATE INDEX idx_tenant_users_tenant ON tenant_users(tenant_id);
 CREATE INDEX idx_tenant_users_user ON tenant_users(user_id);

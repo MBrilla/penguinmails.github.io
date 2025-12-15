@@ -6,8 +6,11 @@ level: "2"
 keywords: "catalog, templates, categories"
 ---
 
-```text
+# Template Catalog
 
+## Available Templates
+
+```text
 Available Templates:
 
 1. Flash Sale

@@ -6,8 +6,11 @@ level: "3"
 keywords: "advanced scheduling, automation, optimization"
 ---
 
-```text
+# Advanced Scheduling
 
+## Schedule Adjustment
+
+```text
 Adjust Warmup Schedule
 
 Current: Day 15 of 42

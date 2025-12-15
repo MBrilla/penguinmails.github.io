@@ -6,6 +6,9 @@ level: "3"
 keywords: "monitoring, system, architecture"
 ---
 
+# Monitoring System
+
+## Key Capabilities
 
 - **Real-Time Reputation Tracking**: Monitor sender scores across all major providers
 

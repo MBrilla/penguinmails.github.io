@@ -6,10 +6,7 @@ level: "3"
 keywords: "management, organization, versioning"
 ---
 
-
-```
-
----
+# Template Management
 
 ## Level 3: Technical Implementation
 

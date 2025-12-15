@@ -7,6 +7,10 @@ keywords: "API, specifications, documentation"
 persona: "Product Teams"
 ---
 
+# API Specifications
+
+## Validation Results Interface
+
 ```ts
 interface ValidationResults {
   overallScore: number;

@@ -6,8 +6,11 @@ level: "3"
 keywords: "feature tables, schema, relationships"
 ---
 
-);
+# Feature Tables
 
+## Template Organization
+
+```sql
 -- Template-to-folder mapping (UUID → BIGINT optimization)
 CREATE TABLE template_folders (
     id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,

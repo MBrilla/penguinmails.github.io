@@ -6,12 +6,13 @@ level: "3"
 keywords: "metrics, alerts, monitoring"
 ---
 
-```
+# Metrics & Alerts
 
-#### Delisting Process
+## Delisting Process
+
+### Delisting Guide: Spamcop
 
 ```text
-
 Delisting Guide: Spamcop
 
 Status: Listed

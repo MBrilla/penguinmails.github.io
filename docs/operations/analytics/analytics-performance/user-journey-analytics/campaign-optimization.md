@@ -6,6 +6,11 @@ level: "3"
 keywords: "optimization, campaigns, conversion"
 ---
 
+# Part III: Campaign Optimization
+
+## Sending Strategies
+
+1. **Batch Processing**: Large campaigns split into manageable chunks
 
 2. **Partial Success Handling**:
 

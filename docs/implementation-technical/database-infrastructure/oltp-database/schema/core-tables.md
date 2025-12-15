@@ -6,6 +6,10 @@ level: "3"
 keywords: "tables, schema, core entities"
 ---
 
+# Core Database Tables
+
+## Naming Conventions
+
 - **Core Entities**: No prefix, plural nouns (`users`, `companies`, `campaigns`)
 
 - **Junction Tables**: Singular compound names (`tenant_users`, `campaign_sequence_steps`)

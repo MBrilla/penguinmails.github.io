@@ -7,15 +7,6 @@ persona: "Analytics Teams"
 keywords: "user journey, analytics, campaigns, tracking"
 ---
 
-﻿---
-
-title: "User Journey Analytics & Campaign Performance"
-description: "Comprehensive user journey analytics and campaign performance monitoring for enterprise-grade email marketing operations and optimization"
-last_modified_date: "2025-10-28"
-level: "2"
-persona: "Documentation Users"
----
-
 # User Journey Analytics & Campaign Performance
 
 **Strategic Alignment**: This analytics framework supports our enterprise operational strategy by providing comprehensive user journey tracking and campaign performance optimization that drives strategic business outcomes and competitive market positioning.

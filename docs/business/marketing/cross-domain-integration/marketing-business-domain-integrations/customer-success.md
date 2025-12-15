@@ -6,7 +6,6 @@ level: 3
 persona: ["developer", "analyst"]
 keywords: [customer-success, health-score, retention, churn-prevention]
 ---
-
 {% raw %}
 
 # Customer Success Integration

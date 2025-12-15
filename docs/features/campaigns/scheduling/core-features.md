@@ -6,6 +6,9 @@ level: "2"
 keywords: "scheduling features, calendar, timing"
 ---
 
+# Core Scheduling Features
+
+## Key Capabilities
 
 - **Send-Time Optimization**: AI-powered optimal send time based on historical engagement
 

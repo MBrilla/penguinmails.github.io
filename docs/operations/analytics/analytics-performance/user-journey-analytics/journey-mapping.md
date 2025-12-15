@@ -6,6 +6,9 @@ level: "3"
 keywords: "journey mapping, visualization, user flows"
 ---
 
+# Part II: Journey Mapping & Visualization
+
+## List Quality Assessment
 
 - List age and freshness
 
