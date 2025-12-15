@@ -13,6 +13,7 @@ This document provides an overview of how feature tasks reference core foundatio
 ## Overview
 
 All feature implementation tasks now include properly linked dependencies, making it easy to:
+
 - Navigate between related tasks
 - Understand implementation order
 - Track prerequisite requirements
@@ -23,6 +24,7 @@ All feature implementation tasks now include properly linked dependencies, makin
 The core foundation provides the base infrastructure that all features depend on:
 
 ### CORE-1.x: Project Setup
+
 - [CORE-1.1](/docs/features/core/tasks/CORE-1.1-initialize-nextjs-project) - Initialize Next.js 15 Project
 - [CORE-1.2](/docs/features/core/tasks/CORE-1.2-configure-eslint) - Configure ESLint
 - [CORE-1.3](/docs/features/core/tasks/CORE-1.3-configure-prettier) - Configure Prettier
@@ -30,12 +32,14 @@ The core foundation provides the base infrastructure that all features depend on
 - [CORE-1.5](/docs/features/core/tasks/CORE-1.5-setup-environment-variables) - Setup Environment Variables
 
 ### CORE-2.x: Database/ORM
+
 - [CORE-2.1](/docs/features/core/tasks/CORE-2.1-install-configure-drizzle) - Install and Configure Drizzle ORM
 - [CORE-2.2](/docs/features/core/tasks/CORE-2.2-define-initial-schemas) - Define Initial Schemas (tenants, users, system_config)
 - [CORE-2.3](/docs/features/core/tasks/CORE-2.3-generate-first-migration) - Generate First Migration
 - [CORE-2.4](/docs/features/core/tasks/CORE-2.4-implement-migration-script) - Implement Migration Script
 
 ### CORE-3.x: Authentication (NileDB)
+
 - [CORE-3.1](/docs/features/authentication/tasks/CORE-3.1-install-configure-niledb) - Install and Configure NileDB Server SDK
 - [CORE-3.2](/docs/features/authentication/tasks/CORE-3.2-implement-middleware) - Implement Middleware
 - [CORE-3.3](/docs/features/authentication/tasks/CORE-3.3-create-signup-endpoint) - Create Signup Endpoint
@@ -43,11 +47,13 @@ The core foundation provides the base infrastructure that all features depend on
 - [CORE-3.5](/docs/features/authentication/tasks/CORE-3.5-create-protected-endpoint) - Create Protected Endpoint
 
 ### CORE-4.x: Services Layer
+
 - [CORE-4.1](/docs/features/core/tasks/CORE-4.1-install-configure-redis) - Install Redis Client and Configure Connection
 - [CORE-4.2](/docs/features/core/tasks/CORE-4.2-create-redis-service) - Create Redis Service
 - [CORE-4.3](/docs/features/core/tasks/CORE-4.3-implement-redis-health-check) - Implement Redis Health Check
 
 ### CORE-5.x: Validation
+
 - [CORE-5.1](/docs/features/core/tasks/CORE-5.1-install-zod-define-schemas) - Install Zod and Define Core Schemas
 - [CORE-5.2](/docs/features/core/tasks/CORE-5.2-create-test-validation-endpoint) - Create Test Validation Endpoint
 
@@ -67,6 +73,7 @@ Each feature has its own task prefix for easy identification:
 ## Dependency Patterns
 
 ### Pattern 1: Core Dependencies
+
 Most feature tasks depend on core foundation tasks:
 
 ```markdown
@@ -77,6 +84,7 @@ Most feature tasks depend on core foundation tasks:
 ```
 
 ### Pattern 2: Feature-Specific Dependencies
+
 Tasks within a feature reference each other:
 
 ```markdown
@@ -87,6 +95,7 @@ Tasks within a feature reference each other:
 ```
 
 ### Pattern 3: Cross-Feature Dependencies
+
 Some tasks depend on tasks from other features:
 
 ```markdown
@@ -99,26 +108,33 @@ Some tasks depend on tasks from other features:
 ## Common Dependency Chains
 
 ### Database Schema Implementation
+
 1. CORE-2.1 (Drizzle ORM) → CORE-2.2 (Initial schemas) → Feature schema definition → Migration generation → Migration application
 
 ### API Endpoint Implementation
+
 1. CORE-1.1 (Next.js) → CORE-3.1 (NileDB) → CORE-3.2 (Middleware) → CORE-5.1 (Zod) → Feature endpoint
 
 ### Infrastructure Setup
+
 1. CORE-1.5 (Environment variables) → CORE-2.1 (Drizzle) → INFRA-1.1 (Infrastructure schemas) → INFRA-1.2 (Migrations)
 
 ## Implementation Order
 
 ### Phase 1: Foundation (Epic 1)
+
 Complete all CORE-1.x and CORE-2.x tasks first. These provide the base infrastructure.
 
 ### Phase 2: Authentication (Epic 2)
+
 Complete all CORE-3.x tasks. Authentication is required for most feature endpoints.
 
 ### Phase 3: Services & Validation (Epic 1 continued)
+
 Complete CORE-4.x and CORE-5.x tasks for caching and validation support.
 
 ### Phase 4: Feature Implementation
+
 With the foundation in place, implement feature-specific tasks in any order, respecting their internal dependencies.
 
 ## Verification
@@ -140,6 +156,7 @@ grep -r "^\- \*\*[A-Z]\+-" docs/features/*/tasks/*.md
 When adding new tasks:
 
 1. **Use the standard format**:
+
    ```markdown
    ## Dependencies
    
