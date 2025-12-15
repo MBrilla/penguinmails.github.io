@@ -1,13 +1,12 @@
-# Hostwinds Monitoring and Diagnostics API
-
 ---
-
 title: "Hostwinds Monitoring and Diagnostics API"
 description: "Detailed API contract for Hostwinds server monitoring, logs, and diagnostic tools"
 last_modified_date: "2025-11-19"
 level: "3"
 persona: "Documentation Users"
 ---
+
+# Hostwinds Monitoring and Diagnostics API
 
 **For DevOps Engineers and SRE Teams**: Complete API reference for Hostwinds server monitoring, log access, and diagnostic operations
 

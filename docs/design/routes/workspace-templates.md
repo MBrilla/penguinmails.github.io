@@ -1,3 +1,11 @@
+---
+title: "Workspace Templates"
+description: "Manage reusable email templates for the workspace"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Workspace Templates
 
 ## 1. Purpose & Context (The "Why")

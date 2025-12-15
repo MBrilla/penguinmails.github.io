@@ -14,7 +14,7 @@ Use this 20-point checklist to audit your campaigns and protect your business.
 
 > **Disclaimer**: This is for informational purposes only and does not constitute legal advice. Consult with a qualified attorney for specific legal guidance.
 
-## ✅ The 20-Point Compliance Checklist
+## The 20-Point Compliance Checklist
 
 ### 1. Legal Basis & Consent
 

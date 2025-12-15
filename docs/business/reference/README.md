@@ -26,7 +26,7 @@ This directory contains quick reference guides, executive templates, detailed me
 
 - [**Detailed Methodology**](/docs/business/reference) - Comprehensive analysis methodology (â‰¤300 lines)
 
-### 🎯 Reference Usage Path
+### Reference Usage Path
 
 1. **Quick Analysis**: Use `quick-reference-cost-benefit` for rapid assessments
 
@@ -48,7 +48,7 @@ This directory contains quick reference guides, executive templates, detailed me
 
 - **Progression**: Quick reference → detailed methodology → implementation
 
-### 🔧 Reference Types
+### Reference Types
 
 - **Quick References**: Fast access to key information and checklists
 

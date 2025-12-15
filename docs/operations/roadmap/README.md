@@ -45,7 +45,7 @@ This directory contains the product and technical roadmaps that define **what we
 
 ---
 
-## 🎯 How to Use This Section
+## How to Use This Section
 
 ### For Business Leaders
 
@@ -155,7 +155,7 @@ Roadmaps are updated monthly with:
 
 ---
 
-## 📊 Key Milestones
+## Key Milestones
 
 ### 2025 Q4 - MVP Foundation
 

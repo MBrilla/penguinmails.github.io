@@ -1,3 +1,11 @@
+---
+title: "Workspace Domains & Email Accounts"
+description: "Manage sending domains and email accounts for the workspace"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Workspace Domains & Email Accounts
 
 ## 1. Purpose & Context (The "Why")

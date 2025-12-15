@@ -1,4 +1,12 @@
-﻿# âš™ï¸ Queue & Background Jobs
+﻿---
+title: "Queue & Background Jobs"
+description: "Background job processing, queue monitoring, and notifications"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "Technical Teams"
+---
+
+# Queue & Background Jobs
 
 Background job processing, queue monitoring, and notifications.
 
@@ -34,7 +42,7 @@ See [Queue Roadmap](/docs/features/queue/roadmap) for future enhancements.
 
 ## Features in This Category
 
-### ✅ Available Now
+### Available Now
 
 #### [Core Email Pipeline](/docs/features/queue/email-pipeline)
 

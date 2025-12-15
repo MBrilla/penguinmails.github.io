@@ -1,3 +1,11 @@
+---
+title: "Competitor Analysis Journeys"
+description: "User journeys for competitors analyzing PenguinMails for competitive intelligence"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "External Stakeholders"
+---
+
 # External Stakeholders: Competitor Analysis Journeys
 
 ## Overview

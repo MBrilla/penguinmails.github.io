@@ -1,9 +1,9 @@
+---
 title: "Retention Playbooks"
 description: "Customer retention playbook templates"
 last_modified_date: "2025-12-05"
 level: "2"
 keywords: "retention, playbooks, customer success"
-
 persona: "CS Teams"
 ---
 

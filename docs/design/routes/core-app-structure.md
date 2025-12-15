@@ -1,3 +1,11 @@
+---
+title: "Core Application Structure"
+description: "Shell of the application handling navigation, context switching, and global state"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Core Application Structure
 
 ## 1. Purpose & Context (The "Why")

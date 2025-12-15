@@ -1,3 +1,11 @@
+---
+title: "Freelancer Onboarding Flow"
+description: "Onboarding journey for independent consultants implementing PenguinMails"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "Freelancers"
+---
+
 # External Users: Freelancer Onboarding Flow
 
 ## Overview

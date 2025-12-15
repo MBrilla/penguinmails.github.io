@@ -1,10 +1,18 @@
-# ✨ Core Features
+---
+title: "Core Features"
+description: "Quick access to PenguinMails essential features with progressive reveal"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Core Features
 
 **Quick access to PenguinMails' essential features.** Each feature uses **progressive reveal** - start with the overview and dive deeper as needed.
 
 ---
 
-## 🚀 Foundation Features (Start Here)
+## Foundation Features (Start Here)
 
 ### Infrastructure & Setup
 
@@ -87,7 +95,7 @@
 
 ---
 
-## 🎯 Quick Navigation by Need
+## Quick Navigation by Need
 
 ### For New Users
 

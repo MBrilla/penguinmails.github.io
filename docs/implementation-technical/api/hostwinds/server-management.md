@@ -1,13 +1,12 @@
-# Hostwinds Server Management API
-
 ---
-
 title: "Hostwinds Server Instance Management API"
 description: "Detailed API contract for Hostwinds VPS instance lifecycle management, operations, and maintenance"
 last_modified_date: "2025-11-19"
 level: "3"
 persona: "Documentation Users"
 ---
+
+# Hostwinds Server Management API
 
 **For Platform Engineers and Automation Teams**: Complete API reference for Hostwinds server instance creation, management, and operations
 

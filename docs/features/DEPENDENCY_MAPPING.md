@@ -1,3 +1,11 @@
+---
+title: "Task Dependency Mapping"
+description: "Overview of how feature tasks reference core foundation tasks and each other"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Task Dependency Mapping
 
 This document provides an overview of how feature tasks reference core foundation tasks and each other, creating a clear dependency graph for implementation.

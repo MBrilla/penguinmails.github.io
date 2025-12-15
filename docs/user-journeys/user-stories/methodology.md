@@ -1,3 +1,11 @@
+---
+title: "User Stories Methodology"
+description: "Systematic approach to creating user stories aligned with three-user-type classification"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Product Teams"
+---
+
 # User Stories Methodology
 
 ## Overview

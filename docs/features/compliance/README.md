@@ -6,7 +6,7 @@ level: "1"
 persona: "All Users"
 ---
 
-# âš–ï¸ Compliance & Regulations
+# Compliance & Regulations
 
 GDPR, CAN-SPAM, opt-out management, and regulatory compliance.
 
@@ -136,7 +136,7 @@ Ensure regulatory compliance and manage opt-outs, unsubscribes, and data privacy
 
 ## Features in This Category
 
-### ✅ Available Now (MVP Ready)
+### Available Now (MVP Ready)
 
 - **[Security Features](/docs/features/compliance/security-features)** - SSL/TLS, SPF/DKIM/DMARC, encryption, access control, audit logging
 

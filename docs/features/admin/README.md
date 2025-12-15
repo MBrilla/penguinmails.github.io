@@ -1,4 +1,12 @@
-# 🔧 Platform Administration (Internal)
+---
+title: "Platform Administration"
+description: "Internal operational tools for PenguinMails staff"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Internal Staff"
+---
+
+# Platform Administration (Internal)
 
 **Target Users**: PenguinMails internal staff (super_admin, admin, support, qa)  
 **Customer-Facing**: No - These are internal operational tools

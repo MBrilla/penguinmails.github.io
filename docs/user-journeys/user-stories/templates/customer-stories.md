@@ -1,3 +1,11 @@
+---
+title: "Customer User Stories Templates"
+description: "Standardized templates for creating user stories for Real External Users"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Product Teams"
+---
+
 # User Stories Templates: Real External Users (Customers)
 
 ## Overview

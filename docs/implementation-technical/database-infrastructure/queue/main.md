@@ -39,7 +39,7 @@ related_docs:
 
 The **Queue System** is PenguinMails' job processing and reliability layer designed for asynchronous operations, retry logic, and system reliability. This tier provides a hybrid PostgreSQL + Redis architecture combining durability with high-performance job processing.
 
-### 🎯 **Purpose & Characteristics**
+### **Purpose & Characteristics**
 
 - **Primary Focus**: Job state management, retry logic, processing reliability
 

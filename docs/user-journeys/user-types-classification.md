@@ -1,3 +1,11 @@
+---
+title: "User Types Classification Framework"
+description: "Defines the three distinct user type categories for PenguinMails platform"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
 # User Types Classification Framework
 
 ## Overview
@@ -10,7 +18,7 @@ This document defines the three distinct user type categories for PenguinMails p
 
 ## User Type Categories
 
-### 🎯 **Type 1: Internal Platform Users**
+### **Type 1: Internal Platform Users**
 
 **Definition**: Administrative and operational users who manage the PenguinMails platform itself.
 
@@ -64,7 +72,7 @@ This document defines the three distinct user type categories for PenguinMails p
 
 ---
 
-### 🎯 **Type 2: External Stakeholders**
+### **Type 2: External Stakeholders**
 
 **Definition**: Public-facing parties who assess PenguinMails' credibility, market position, and investment potential.
 
@@ -136,7 +144,7 @@ This document defines the three distinct user type categories for PenguinMails p
 
 ---
 
-### 🎯 **Type 3: Real External Users (Customers)**
+### **Type 3: Real External Users (Customers)**
 
 **Definition**: Actual product users and their organizations who use PenguinMails for their business operations.
 

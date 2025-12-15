@@ -1,4 +1,12 @@
-﻿# 💳 Payments & Billing
+﻿---
+title: "Payments & Billing"
+description: "Subscription management, billing, invoicing, and payment processing"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Payments & Billing
 
 Subscription management, billing, invoicing, and payment processing.
 
@@ -118,7 +126,7 @@ Handle all payment-related operations including subscriptions, billing, and invo
 
 ## Features in This Category
 
-### ✅ Available Now
+### Available Now
 
 - **[Subscription Management](/docs/features/payments/subscription-management)** - Plan management and upgrades
 

@@ -1,3 +1,11 @@
+---
+title: "Tenant Unified Inbox"
+description: "Manage all replies from all campaigns and email accounts in a single interface"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Tenant Unified Inbox
 
 ## 1. Purpose & Context (The "Why")

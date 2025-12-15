@@ -1,3 +1,11 @@
+---
+title: "Spike: Mail Server Alternatives Investigation"
+description: "P0 investigation for mail server alternatives that blocks Unified Inbox MVP"
+last_modified_date: "2025-12-16"
+level: "3"
+persona: "Technical Teams"
+---
+
 # Spike: Mail Server Alternatives Investigation
 
 **Priority:** P0 (Blocks Unified Inbox MVP)  

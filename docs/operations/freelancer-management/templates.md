@@ -37,7 +37,7 @@ For the complete freelancer agreement template, please visit our Google Docs tem
 
 - **Communication Obligation**: Must respond in writing to status inquiries after delivery deadline
 
-### 💰 Payment Structure
+### Payment Structure
 
 - **Effort Points System**: Tasks are valued in effort points, not hours
 

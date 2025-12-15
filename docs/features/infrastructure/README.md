@@ -28,7 +28,7 @@ Automated VPS management, IP allocation, SMTP servers, and infrastructure provis
 
 ## Features in This Category
 
-### ✅ Available Now
+### Available Now
 
 - **[Email Infrastructure Setup](/docs/features/infrastructure/email-infrastructure-setup)** - VPS provisioning, SMTP setup, DNS automation
 

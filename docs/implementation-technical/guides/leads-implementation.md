@@ -1,3 +1,11 @@
+---
+title: "Leads Management Implementation Guide"
+description: "Implementation guide for Leads & Contact Management feature"
+last_modified_date: "2025-12-16"
+level: "3"
+persona: "Technical Teams"
+---
+
 # Leads Management Implementation Guide
 
 **Feature:** Leads & Contact Management

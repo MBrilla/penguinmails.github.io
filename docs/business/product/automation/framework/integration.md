@@ -1,3 +1,4 @@
+---
 title: "Integration Points"
 description: "System integration points"
 last_modified_date: "2025-12-05"

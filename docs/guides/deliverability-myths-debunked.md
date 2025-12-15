@@ -84,7 +84,7 @@ The *sender* matters more than the *word*.
 
 ---
 
-## ✅ So, What Actually Works?
+## So, What Actually Works?
 
 If you ignore the hacks and focus on the fundamentals, deliverability becomes predictable.
 

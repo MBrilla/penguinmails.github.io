@@ -1,3 +1,11 @@
+---
+title: "Support and QA Roles"
+description: "Guide for support and QA roles within PenguinMails internal staff structure"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Internal Staff"
+---
+
 # Support and QA Roles
 
 ## Overview

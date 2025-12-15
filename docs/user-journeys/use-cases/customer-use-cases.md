@@ -1,3 +1,11 @@
+---
+title: "Customer Use Cases"
+description: "Comprehensive use cases for Real External Users using PenguinMails"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "Customers"
+---
+
 # Use Cases: Real External Users (Customers)
 
 ## Overview

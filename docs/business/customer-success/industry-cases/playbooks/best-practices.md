@@ -1,3 +1,4 @@
+---
 title: "Playbook Best Practices"
 description: "Best practices for playbook execution"
 last_modified_date: "2025-12-05"

@@ -1,3 +1,11 @@
+---
+title: "Platform Administration"
+description: "Internal tools for PenguinMails staff to manage the platform, support users, and monitor health"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Platform Administration (Internal)
 
 ## 1. Purpose & Context (The "Why")

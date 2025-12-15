@@ -1,4 +1,12 @@
-﻿# 📧 Campaign Management
+﻿---
+title: "Campaign Management"
+description: "Campaign creation, multi-channel orchestration, sequence management, and analytics"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Campaign Management
 
 Campaign creation, multi-channel orchestration, sequence management, and campaign-level analytics.
 

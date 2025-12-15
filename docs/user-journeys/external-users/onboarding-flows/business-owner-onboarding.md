@@ -1,3 +1,11 @@
+---
+title: "Business Owner Onboarding Flow"
+description: "Onboarding journey for business owners implementing PenguinMails"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "Business Owners"
+---
+
 # External Users: Business Owner Onboarding Flow
 
 ## Overview

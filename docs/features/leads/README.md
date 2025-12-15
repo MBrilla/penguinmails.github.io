@@ -1,4 +1,12 @@
-﻿# 👥 Leads & Lists
+﻿---
+title: "Leads & Lists"
+description: "Lead management, contact lists, and segmentation"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Leads & Lists
 
 Lead management, contact lists, and segmentation (scoped by tenant).
 
@@ -22,7 +30,7 @@ Organize and manage leads/contacts with tenant-scoped lists and segmentation.
 
 ## Features in This Category
 
-### ✅ Available Now (Documented)
+### Available Now (Documented)
 
 - **[Leads Management](/docs/features/leads/leads-management)** - Contact storage and segmentation
 

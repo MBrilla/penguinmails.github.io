@@ -26,7 +26,7 @@ Here are the answers to the most common business questions from agency founders.
 **Not if you don't want them to.**
 Most agencies use our "Invisible Infrastructure" model. You manage everything from your master dashboard. Your clients never log in; they just receive the reports you generate (which can be branded with your logo).
 
-## 💰 Billing & Pricing Models
+## Billing & Pricing Models
 
 ### How do I bill my clients?
 
@@ -61,7 +61,7 @@ You own the workspace and the data.
 **Yes.** This is our core feature.
 Our "Agency Client Workspaces" allow you to toggle between unlimited client accounts from a single master login. No logging in and out. No password spreadsheets.
 
-## 🚀 Scaling
+## Scaling
 
 ### Is there a limit to how many clients I can add?
 

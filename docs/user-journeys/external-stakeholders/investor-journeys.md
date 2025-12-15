@@ -1,3 +1,11 @@
+---
+title: "Investor Journeys"
+description: "User journeys for investors and VCs evaluating PenguinMails as an investment opportunity"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "External Stakeholders"
+---
+
 # External Stakeholders: Investor Journeys
 
 ## Overview

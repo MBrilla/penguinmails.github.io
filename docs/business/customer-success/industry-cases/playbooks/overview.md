@@ -1,9 +1,11 @@
+---
 title: "Industry-Specific Playbook Templates"
 description: "Phase 6 implementation delivering vertical playbook workflows for healthcare, financial services, e-commerce, agencies, and SaaS customer success operations"
 last_modified_date: "2025-12-05"
 level: "2"
 persona: "CS Teams"
 keywords: "playbooks, templates, customer success"
+---
 
 # Industry-Specific Playbook Templates
 

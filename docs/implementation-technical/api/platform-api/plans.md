@@ -1,3 +1,11 @@
+---
+title: "Platform Admin API - Plans"
+description: "Manage subscription plans, feature limits, and Stripe mappings"
+last_modified_date: "2025-12-16"
+level: "3"
+persona: "Technical Teams"
+---
+
 # Platform Admin API - Plans
 
 **Manage subscription plans, feature limits, and Stripe mappings.**

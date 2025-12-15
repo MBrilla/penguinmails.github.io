@@ -19,7 +19,7 @@ This directory provides a comprehensive, organized approach to user journey docu
 
 ## User Type Classification
 
-### 🎯 **Internal Platform Users**
+### **Internal Platform Users**
 
 Administrative users who manage the platform and use various third-party tools in their daily work.
 
@@ -37,7 +37,7 @@ Administrative users who manage the platform and use various third-party tools i
 - Technical Teams (Dev, DevOps, Security)
 - Business Operations (Finance, Marketing, Customer Success)
 
-### 🎯 **External Stakeholders**
+### **External Stakeholders**
 
 Public-facing parties who assess company credibility and market position.
 
@@ -55,7 +55,7 @@ Public-facing parties who assess company credibility and market position.
 - Competitors
 - Industry Analysts
 
-### 🎯 **Real External Users (Customers)**
+### **Real External Users (Customers)**
 
 Actual product users and their organizations using the platform for business needs.
 

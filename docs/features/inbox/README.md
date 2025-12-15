@@ -1,4 +1,12 @@
-﻿# 📂 Inbox Management
+﻿---
+title: "Inbox Management"
+description: "Email organization, response management, and conversation tracking"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Inbox Management
 
 Comprehensive email organization, response management, and conversation tracking capabilities.
 
@@ -14,7 +22,7 @@ Comprehensive email organization, response management, and conversation tracking
 
 ## Features in This Category
 
-### ✅ Documented (Implementation Pending)
+### Documented (Implementation Pending)
 
 #### [Unified Inbox](/docs/features/inbox/unified-inbox/overview)
 

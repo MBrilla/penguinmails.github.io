@@ -1,3 +1,11 @@
+---
+title: "Public Demo Journeys"
+description: "User journeys for external stakeholders participating in public platform demonstrations"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "External Stakeholders"
+---
+
 # External Stakeholders: Public Demo Journeys
 
 ## Overview

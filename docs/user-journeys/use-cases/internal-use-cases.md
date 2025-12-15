@@ -1,3 +1,11 @@
+---
+title: "Internal Use Cases"
+description: "Comprehensive use cases for Internal Platform Users managing PenguinMails"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Internal Staff"
+---
+
 # Use Cases: Internal Platform Users
 
 ## Overview

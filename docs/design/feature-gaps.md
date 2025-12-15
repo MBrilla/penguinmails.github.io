@@ -1,3 +1,11 @@
+---
+title: "Feature Gaps & Roadmap Clarifications"
+description: "Tracks features referenced in route specifications that have been clarified, deferred, or addressed"
+last_modified_date: "2025-11-21"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Feature Gaps & Roadmap Clarifications
 
 **Purpose**: This document tracks features referenced in route specifications that have been clarified, deferred to the roadmap, or addressed during the frontend routing validation process.

@@ -1,3 +1,11 @@
+---
+title: "Public & Authentication Routes"
+description: "Secure entry points for users to access the platform, register, and recover accounts"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Public & Authentication Routes
 
 ## 1. Purpose & Context (The "Why")

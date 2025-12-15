@@ -64,7 +64,7 @@ Freelancers, small agencies, startups
 
 ---
 
-#### 🚀 Professional Plan
+#### Professional Plan
 
 ##### Most Popular - For growing businesses
 

@@ -1,13 +1,12 @@
-# Hostwinds Upgrade, Billing, and Pricing API
-
 ---
-
 title: "Hostwinds Upgrade, Billing, and Pricing API"
 description: "Detailed API contract for Hostwinds server upgrades, billing management, and pricing queries"
 last_modified_date: "2025-11-19"
 level: "3"
 persona: "Documentation Users"
 ---
+
+# Hostwinds Upgrade, Billing, and Pricing API
 
 **For Platform Engineers and Finance Teams**: Complete API reference for Hostwinds resource upgrades, billing cycle management, and cost planning
 

@@ -1,4 +1,12 @@
-# 👥 Team & Workspace Management
+---
+title: "Team & Workspace Management"
+description: "Team and workspace management for tenant organizations"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Team & Workspace Management
 
 **Target Users**: Tenant administrators (owner, manager)  
 **Customer-Facing**: Yes - These features enable tenant organizations to manage teams and workspaces
@@ -9,7 +17,7 @@ Team and workspace management features for PenguinMails tenant customers. Enable
 
 ## Features in This Category
 
-### ✅ Available Now (MVP)
+### Available Now (MVP)
 
 - **Team Invitations** - Invite members to join tenant organization
 - **Role-Based Access** - Owner, Manager, Employee roles within tenant

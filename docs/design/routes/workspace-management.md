@@ -1,4 +1,12 @@
-﻿# Agency Client Workspaces
+﻿---
+title: "Agency Client Workspaces"
+description: "Create and configure client workspaces for agencies managing multiple clients"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
+# Agency Client Workspaces
 
 ## 1. Purpose & Context (The "Why")
 

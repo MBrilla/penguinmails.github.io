@@ -39,7 +39,7 @@ This section contains implementation guides specifically designed for email serv
 
 - **[Billing Setup](/docs/implementation-technical/email-service/customer-quick-setup)** - Customer billing configuration
 
-### 🎯 Implementation Roadmap for Customers
+### Implementation Roadmap for Customers
 
 #### Phase 1: Account Setup (Day 1)
 

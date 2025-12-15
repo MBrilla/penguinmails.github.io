@@ -1,3 +1,4 @@
+---
 title: "Implementation & Best Practices"
 description: "Implementation guide and best practices"
 last_modified_date: "2025-12-05"

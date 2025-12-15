@@ -1,4 +1,12 @@
-﻿# 🔥 Warmup & Reputation
+﻿---
+title: "Warmup & Reputation"
+description: "Automated email warmup, domain reputation building, and sender health monitoring"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Warmup & Reputation
 
 Automated email warmup, domain reputation building, and sender health monitoring.
 
@@ -26,7 +34,7 @@ See [Warmup Roadmap](/docs/features/warmup/roadmap) for detailed timeline.
 
 ## Features in This Category
 
-### ✅ Approved (High Priority)
+### Approved (High Priority)
 
 #### [Email Warmups](/docs/features/warmup/email-warmups/overview)
 

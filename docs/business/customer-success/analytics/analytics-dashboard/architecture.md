@@ -252,16 +252,16 @@ Data Quality Framework:
 Storage Strategy:
   Hot Storage (Real-time access):
     - Redis Cluster: Cached analytics results and session data
-    - MongoDB: User preferences and dashboard configurations
+    - PostgreSQL: User preferences and dashboard configurations
     - Response time: <50ms for 99% of queries
   
   Warm Storage (Analytical queries):
-    - Time-series DB: Historical trend data and metrics
-    - Data Warehouse: Aggregated business metrics
+    - TimescaleDB: Historical trend data and metrics (PostgreSQL extension)
+    - PostgreSQL: Aggregated business metrics
     - Response time: <2 seconds for 95% of queries
   
   Cold Storage (Historical data):
-    - Data Lake: Raw data and long-term archives
+    - PostgreSQL partitioned tables: Raw data and long-term archives
     - Backup systems: Disaster recovery and compliance
     - Access time: <30 seconds for data retrieval
 ```

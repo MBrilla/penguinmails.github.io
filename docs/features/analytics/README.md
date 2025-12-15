@@ -1,4 +1,12 @@
-﻿# 📊 Analytics & Reporting
+﻿---
+title: "Analytics & Reporting"
+description: "Platform-wide analytics, performance tracking, and data-driven insights"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Analytics & Reporting
 
 Platform-wide analytics, performance tracking, and data-driven insights.
 
@@ -74,7 +82,7 @@ PenguinMails provides **two types of analytics**:
 
 ## Features in This Category
 
-### ✅ Available Now
+### Available Now
 
 #### [Core Analytics](/docs/features/analytics/core-analytics/overview)
 

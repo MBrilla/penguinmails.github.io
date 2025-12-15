@@ -1,13 +1,12 @@
-# Hostwinds Networking and IP Management API
-
 ---
-
 title: "Hostwinds Networking and IP Management API"
 description: "Detailed API contract for Hostwinds IP address management, networking configuration, and firewall setup"
 last_modified_date: "2025-11-19"
 level: "3"
 persona: "Documentation Users"
 ---
+
+# Hostwinds Networking and IP Management API
 
 **For Platform Engineers and Network Administrators**: Complete API reference for Hostwinds IP management, DNS configuration, and network operations
 

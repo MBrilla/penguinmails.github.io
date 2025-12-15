@@ -1,4 +1,12 @@
-﻿# 🔌 Integrations
+﻿---
+title: "Integrations"
+description: "Third-party system connections including CRM, webhooks, and external platforms"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Integrations
 
 Third-party system connections including CRM, webhooks, and external platforms.
 
@@ -32,7 +40,7 @@ Third-party system connections including CRM, webhooks, and external platforms.
 
 ## Features in This Category
 
-### ⏳ In Development (MVP - Q1 2026)
+### In Development (MVP - Q1 2026)
 
 - **[API Key Management](/docs/features/integrations/vault-api-keys/overview)** - Secure API key generation, Vault storage, permission scopes, rate limiting (P0 - Critical)
 
@@ -40,7 +48,7 @@ Third-party system connections including CRM, webhooks, and external platforms.
 
 - **[Webhook System](/docs/features/integrations/webhook-system)** - Real-time event notifications with retry logic and signature verification (P1 - High)
 
-### ✅ Available Now
+### Available Now
 
 - **[API Access Documentation](/docs/features/integrations/api-access)** - RESTful API specification for custom integrations
 

@@ -1,4 +1,12 @@
-﻿# 📝 Templates & Content
+﻿---
+title: "Templates & Content"
+description: "Email templates, HTML editor, template tags, and personalization variables"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Templates & Content
 
 Email templates, HTML editor, template tags, and personalization variables.
 
@@ -28,7 +36,7 @@ See [Template Roadmap](/docs/features/templates/roadmap) for detailed timeline.
 
 ## Features in This Category
 
-### ✅ Available Now
+### Available Now
 
 #### [Template Management](/docs/features/templates/template-management)
 

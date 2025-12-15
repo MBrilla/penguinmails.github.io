@@ -1,3 +1,11 @@
+---
+title: "Internal User Stories Templates"
+description: "Standardized templates for creating user stories for Internal Platform Users"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Product Teams"
+---
+
 # User Stories Templates: Internal Platform Users
 
 ## Overview

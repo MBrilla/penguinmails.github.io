@@ -1,3 +1,11 @@
+---
+title: "Enterprise Onboarding Flow"
+description: "Onboarding journey for enterprise teams implementing PenguinMails"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "Enterprise Teams"
+---
+
 # External Users: Enterprise Onboarding Flow
 
 ## Overview

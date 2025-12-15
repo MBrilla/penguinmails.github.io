@@ -1,3 +1,11 @@
+---
+title: "Stakeholder Use Cases"
+description: "Comprehensive use cases for External Stakeholders interacting with PenguinMails"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "External Stakeholders"
+---
+
 # Use Cases: External Stakeholders
 
 ## Overview

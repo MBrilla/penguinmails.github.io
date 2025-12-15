@@ -1,3 +1,11 @@
+---
+title: "Settings & Organization"
+description: "Manage user profile, organization details, billing, and team access"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Technical Teams"
+---
+
 # Settings & Organization
 
 ## 1. Purpose & Context (The "Why")

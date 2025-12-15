@@ -1,4 +1,12 @@
-﻿# 🤖 Automation & Workflows
+﻿---
+title: "Automation & Workflows"
+description: "Workflow automation, triggers, actions, and intelligent automation rules"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Automation & Workflows
 
 Workflow automation, triggers, actions, and intelligent automation rules.
 
@@ -70,7 +78,7 @@ Automated workflows with triggers and actions.
 
 ---
 
-### 🚀 Post-MVP Features (2026-2027)
+### Post-MVP Features (2026-2027)
 
 #### Advanced Conditional Logic (Q3 2026)
 

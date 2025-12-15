@@ -1,3 +1,11 @@
+---
+title: "User Journey Testing Framework"
+description: "Scenario-based testing for freelancer onboarding documentation"
+last_modified_date: "2025-12-16"
+level: "2"
+persona: "Operations Teams"
+---
+
 # User Journey Testing Framework
 
 ## Overview

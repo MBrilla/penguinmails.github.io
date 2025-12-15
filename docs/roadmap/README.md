@@ -12,7 +12,7 @@ Central hub for all roadmap documentation. Navigate by audience or by feature ar
 
 ---
 
-## 📊 High-Level Timeline
+## High-Level Timeline
 
 | Phase | Timeline | Focus |
 |-------|----------|-------|
@@ -24,7 +24,7 @@ Central hub for all roadmap documentation. Navigate by audience or by feature ar
 
 ---
 
-## 🎯 Navigate by Audience
+## Navigate by Audience
 
 ### 👔 Executive Team
 

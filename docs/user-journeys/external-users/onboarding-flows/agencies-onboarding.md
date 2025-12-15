@@ -1,3 +1,11 @@
+---
+title: "Agency Onboarding Flow"
+description: "Onboarding journey for marketing agency owners implementing PenguinMails"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "Agencies"
+---
+
 # External Users: Agency Onboarding Flow
 
 ## Overview

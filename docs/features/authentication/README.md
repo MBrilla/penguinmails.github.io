@@ -1,4 +1,12 @@
-# 🔐 Authentication & User Management
+---
+title: "Authentication & User Management"
+description: "Tenant user authentication and profile management"
+last_modified_date: "2025-12-16"
+level: "1"
+persona: "All Users"
+---
+
+# Authentication & User Management
 
 **Target Users**: Tenant users (owner, manager, employee)  
 **Customer-Facing**: Yes - These features power tenant user authentication and profile management

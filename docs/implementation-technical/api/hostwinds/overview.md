@@ -1,13 +1,12 @@
-# Hostwinds API Overview
-
 ---
-
 title: "Hostwinds Cloud API Integration"
 description: "Overview of Hostwinds VPS and infrastructure API integration for PenguinMails server management"
 last_modified_date: "2025-11-19"
 level: "2"
 persona: "Documentation Users"
 ---
+
+# Hostwinds API Overview
 
 **For Platform Engineers and DevOps Teams**: Strategic overview of Hostwinds API integration for VPS provisioning, IP management, and infrastructure automation
 
