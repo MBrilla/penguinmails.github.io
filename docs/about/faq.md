@@ -47,8 +47,11 @@ Yes, warmup is required for all new domains and inboxes. Skipping warmup leads t
 New domains and inboxes have zero sender reputation with receiving servers. Gmail and Outlook treat unknown senders as suspicious by default.
 
 **Warmup timelines:**
+
 - Brand new domains: 21 days minimum
+
 - Domains aged six months or more: 14 days
+
 - High-volume senders: Ongoing warmup indefinitely
 
 PenguinMails automates 21-day warmup with real engagement patterns. Many warmup tools use obviously automated messages that Gmail now detects and penalizes.

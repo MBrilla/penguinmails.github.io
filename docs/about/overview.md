@@ -47,7 +47,7 @@ PenguinMails delivers the missing pieces that separate successful cold email cam
 
 ## The ROI of Better Deliverability
 
-**Cost of Poor Deliverability (10,000 Cold Emails)**
+Cost of Poor Deliverability (10,000 Cold Emails)**
 
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
