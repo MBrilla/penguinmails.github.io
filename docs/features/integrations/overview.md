@@ -1,103 +1,105 @@
 ﻿---
 title: "Integrations Overview"
-description: "Comprehensive overview of PenguinMails integration capabilities including API access, webhooks, CRM integrations, and Vault-based secrets management"
-last_modified_date: "2025-11-26"
+description: "API-first integration platform connecting email infrastructure, CRMs, and external services"
 level: "2"
-persona: "Technical Teams, Developers"
+status: "PLANNED"
+roadmap_timeline: "MVP 2025"
+priority: "High"
+keywords: [integrations, api, webhooks, crm, esp, vault]
 ---
-
 
 # Integrations Overview
 
-PenguinMails provides comprehensive integration capabilities enabling connection with external systems through REST APIs, webhooks, CRM integrations, and secure secrets management.
+**Quick Access**: Connect PenguinMails with external services through our API-first architecture, webhooks, and native integrations.
 
-## Integration Strategy: API-First Approach
+## API-First Philosophy
 
-PenguinMails follows an API-first integration strategy, prioritizing a robust general-purpose REST API that works with ANY external system over vendor-specific integrations.
+Every feature in PenguinMails is built API-first, meaning all functionality is accessible programmatically before any UI is created. This ensures third-party integrations have the same capabilities as our native interface.
 
-### Why API-First?
+### Design Principles
 
-## Benefits
-
-- **Flexibility**: Customers can integrate with ANY system, not just pre-built integrations
-
-- **Faster Time-to-Market**: General API is simpler than vendor-specific integrations
-
-- **Lower Maintenance**: One API to maintain vs. multiple vendor integrations
-
-- **Customer Empowerment**: Technical customers can build custom integrations immediately
-
-- **Foundation for Future**: Vendor integrations built on top of stable API
-
-- **Reduced Risk**: Prove API works before investing in vendor partnerships
-
-### Integration Capabilities
-
-## MVP (Available Now)
-
-- ✅ REST API with API key authentication
-
-- ✅ Webhook system for event notifications
-
-- ✅ API documentation (OpenAPI/Swagger)
-
-- ✅ Vault-based secrets management
-
-## Post-MVP (Q1-Q2 2026)
-
-- 🔜 Salesforce CRM integration
-
-- 🔜 HubSpot CRM integration
-
-- 🔜 Zapier integration (5,000+ apps)
-
-- 🔜 ESP integration UI (Postmark, Mailgun)
+| Principle | Implementation |
+|-----------|----------------|
+| API-First | All features via REST/GraphQL before UI |
+| Webhook-Driven | Real-time events for all state changes |
+| OAuth 2.0 | Secure third-party authentication |
+| Rate Limiting | Tiered limits per plan |
+| Versioning | API versions with deprecation policy |
 
 ## Core Integration Features
 
-### 1. API Access
+### API Access
 
-RESTful API for programmatic access to all PenguinMails functionality.
+Full programmatic access to all PenguinMails features:
 
-## Key Features
+- **REST API**: Standard HTTP/JSON endpoints
+- **GraphQL**: Flexible queries for complex data needs
+- **API Keys**: Scoped keys with granular permissions
+- **SDKs**: Official libraries for Python, Node.js, Ruby
 
-- Bearer token authentication with API keys
+### Webhooks
 
-- Rate limiting by subscription tier (60-1000 req/min)
+Real-time event notifications:
 
-- Core endpoints: emails, contacts, campaigns, analytics
+- Email sent, opened, clicked, bounced
+- Campaign status changes
+- Contact subscription changes
+- Infrastructure health alerts
 
-- Standard REST conventions (GET, POST, PUT, DELETE)
+### CRM Integrations
 
-- JSON request/response format
+Native connectors for popular CRMs:
 
-- Comprehensive error handling
+- **Salesforce**: Bi-directional sync
+- **HubSpot**: Contact and activity sync
+- **Pipedrive**: Deal-based email triggers
+- **Custom**: Webhook-based integration
 
-- API versioning (/api/v1/)
+### ESP Integrations
 
-**Documentation:** [API Access](/docs/features/integrations/api-access)
+Email service provider connections:
 
-### 2. Webhook System
+- **Postmark**: Transactional email
+- **Mailgun**: Bulk sending
+- **SendGrid**: Marketing automation
+- **Amazon SES**: High-volume sending
 
-Real-time HTTP POST notifications for email and campaign events.
+## HashiCorp Vault Integration
 
-## Key Features
+Secure secrets management for email infrastructure credentials. See [Vault Secrets Management](/docs/features/integrations/vault-secrets-management) for complete details.
 
-- Event filtering by workspace, campaign, or custom criteria
+### Supported Secret Types
 
-- Automatic retry logic (5 attempts with exponential backoff)
+| Secret Type | Description |
+|-------------|-------------|
+| SMTP Credentials | Mail server authentication |
+| API Keys | ESP and service API keys |
+| DKIM Keys | Domain authentication |
+| OAuth Tokens | Third-party app access |
+| SSH Keys | Server access credentials |
 
-- HMAC-SHA256 signature verification
+## Planned Integrations
 
-- Event replay for historical data
+| Integration | Timeline | Status |
+|-------------|----------|--------|
+| Stripe | MVP 2025 | Development |
+| Slack | Q1 2026 | Planned |
+| Zapier | Q2 2026 | Planned |
+| Make (Integromat) | Q2 2026 | Planned |
 
-- Webhook debugger and request inspector
+## Related Documentation
 
-- Comprehensive event types: email events, campaign events, contact events
+- [Vault Secrets Management](/docs/features/integrations/vault-secrets-management) - Secure credential storage
+- [Third-Party Roadmap](/docs/features/integrations/third-party-roadmap) - Integration timeline
+- [API Documentation](/docs/developers/api-reference) - Full API reference
+- [Webhooks Guide](/docs/developers/webhooks) - Event notifications
 
-**Status:** Planned (Q1 2026)
+---
 
-**Documentation:** [Webhook System](/docs/features/integrations/webhook-system)
+**Last Updated:** November 25, 2025
+**Status:** Planned - MVP Feature (Level 2)
+**Target Release:** MVP 2025 (Core), Q2 2026 (Extended)
+**Owner:** Platform Team
 
 ### 3. CRM Integration
 
